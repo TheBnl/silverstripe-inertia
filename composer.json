@@ -1,0 +1,21 @@
+{
+    "name": "bramdeleeuw/silverstripe-inertia",
+    "description": "Inertia server-side adapter for SilverStripe",
+    "type": "silverstripe-vendormodule",
+    "keywords": ["silverstripe", "inertia"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Bram de Leeuw",
+            "email": "bram@broarm.nl"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": ">=4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Inertia\\": "src"
+        }
+    }
+}
